@@ -20,7 +20,7 @@ public class IpUtil {
     private static final Logger logger = LoggerFactory.getLogger(IpUtil.class);
 
     private static final String ANYHOST_VALUE = "0.0.0.0";
-    private static final String LOCALHOST_VALUE = "127.0.0.1";
+    private static final String LOCALHOST_VALUE = "47.100.225.173";
     private static final Pattern IP_PATTERN = Pattern.compile("\\d{1,3}(\\.\\d{1,3}){3,5}$");
 
 
